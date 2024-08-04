@@ -35,7 +35,29 @@ function btn9() {
   display.innerHTML = display.innerText + "9";
 }
 
-
 function btn0() {
-    display.innerHTML = display.innerText + "0";
-  }
+  display.innerHTML = display.innerText + "0";
+}
+
+function clr() {
+  display.innerHTML = "";
+}
+
+function add() {
+  display.innerHTML = display.innerText + "+";
+}
+
+function sub() {
+  display.innerHTML = display.innerText + "-";
+}
+function div() {
+  display.innerHTML = display.innerText + "/";
+}
+
+function mult() {
+  display.innerHTML = display.innerText + "*";
+}
+
+function eql() {
+  display.innerHTML = eval(display.innerText);
+}
